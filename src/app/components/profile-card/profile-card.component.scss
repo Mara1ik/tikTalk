@@ -1,3 +1,34 @@
 .profile-card {
+  width: 1092px;
   border: 1px solid var(--light-color);
+  padding: 24px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 8px;
+}
+
+.avatar-name {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-card__name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.profile-card__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-card__description {
+  max-width: 285px;
+  font-weight: 500;
+  font-size: 12px;
 }
